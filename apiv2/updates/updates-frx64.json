@@ -1,80 +1,19 @@
 {
     "assets": [
         {
-            "file_name": "PCL2_CE_Beta_x64.exe",
+            "file_name": "PCL2_CE_Release_x64.exe",
             "version": {
                 "channel": "frx64",
-                "name": "2.14.0-beta.5",
-                "code": 503
+                "name": "2.15.1",
+                "code": 524
             },
-            "upd_time": "2026-01-17 03:51:32",
+            "upd_time": "2026-10-20T11:55:37Z",
             "downloads": [
-                "https://github.com/PCL-Community/PCL2_CE_Server/raw/refs/heads/main/static/raw/d1c59b2cd80913b96078d63161e37353aca5b597e1729242daab5a6c86da9c03.zip"
+                "https://github.com/StillPCL/PCL-CE/releases/download/v2.15.1/PCL2_CE_Release_x64.zip"
             ],
-            "patches": [
-                "1da11818103323bb5e67ffecd3bf108bb4d4112c701101733d46e128d429f949_4b764d21a5785a56ea866a70e0fea8a6fb3fa54f46b93f5bfc4b8ce34ac6e44a.patch",
-                "1da11818103323bb5e67ffecd3bf108bb4d4112c701101733d46e128d429f949_d1c59b2cd80913b96078d63161e37353aca5b597e1729242daab5a6c86da9c03.patch",
-                "1da11818103323bb5e67ffecd3bf108bb4d4112c701101733d46e128d429f949_ff07d2cdde8ec545ad9694d44056e3e22e5f4cfb37e61fcaf3a3f7b2a6a2a5dd.patch",
-                "1da11818103323bb5e67ffecd3bf108bb4d4112c701101733d46e128d429f949_a5d3235d1847ee0a82477ea8701e4892bf5ca138129609ee3905f42ec14465b5.patch",
-                "48f39df90a70256e11d8e6d10dcc23a103783c39f6716e348745ed6ec71bd98d_4b764d21a5785a56ea866a70e0fea8a6fb3fa54f46b93f5bfc4b8ce34ac6e44a.patch",
-                "48f39df90a70256e11d8e6d10dcc23a103783c39f6716e348745ed6ec71bd98d_d1c59b2cd80913b96078d63161e37353aca5b597e1729242daab5a6c86da9c03.patch",
-                "48f39df90a70256e11d8e6d10dcc23a103783c39f6716e348745ed6ec71bd98d_ff07d2cdde8ec545ad9694d44056e3e22e5f4cfb37e61fcaf3a3f7b2a6a2a5dd.patch",
-                "48f39df90a70256e11d8e6d10dcc23a103783c39f6716e348745ed6ec71bd98d_a5d3235d1847ee0a82477ea8701e4892bf5ca138129609ee3905f42ec14465b5.patch",
-                "4b764d21a5785a56ea866a70e0fea8a6fb3fa54f46b93f5bfc4b8ce34ac6e44a_d1c59b2cd80913b96078d63161e37353aca5b597e1729242daab5a6c86da9c03.patch",
-                "4b764d21a5785a56ea866a70e0fea8a6fb3fa54f46b93f5bfc4b8ce34ac6e44a_ff07d2cdde8ec545ad9694d44056e3e22e5f4cfb37e61fcaf3a3f7b2a6a2a5dd.patch",
-                "4b764d21a5785a56ea866a70e0fea8a6fb3fa54f46b93f5bfc4b8ce34ac6e44a_a5d3235d1847ee0a82477ea8701e4892bf5ca138129609ee3905f42ec14465b5.patch",
-                "4d850399e1aed0bc402681f2e628c02a06951f71f4cf12c1bd0ed0ff5b9e4455_4b764d21a5785a56ea866a70e0fea8a6fb3fa54f46b93f5bfc4b8ce34ac6e44a.patch",
-                "4d850399e1aed0bc402681f2e628c02a06951f71f4cf12c1bd0ed0ff5b9e4455_d1c59b2cd80913b96078d63161e37353aca5b597e1729242daab5a6c86da9c03.patch",
-                "4d850399e1aed0bc402681f2e628c02a06951f71f4cf12c1bd0ed0ff5b9e4455_ff07d2cdde8ec545ad9694d44056e3e22e5f4cfb37e61fcaf3a3f7b2a6a2a5dd.patch",
-                "4d850399e1aed0bc402681f2e628c02a06951f71f4cf12c1bd0ed0ff5b9e4455_a5d3235d1847ee0a82477ea8701e4892bf5ca138129609ee3905f42ec14465b5.patch",
-                "8afdcb80b64d813c4b71dbb290baabbc1edafd0885a76a15eabe96fba81466a6_4b764d21a5785a56ea866a70e0fea8a6fb3fa54f46b93f5bfc4b8ce34ac6e44a.patch",
-                "8afdcb80b64d813c4b71dbb290baabbc1edafd0885a76a15eabe96fba81466a6_d1c59b2cd80913b96078d63161e37353aca5b597e1729242daab5a6c86da9c03.patch",
-                "8afdcb80b64d813c4b71dbb290baabbc1edafd0885a76a15eabe96fba81466a6_ff07d2cdde8ec545ad9694d44056e3e22e5f4cfb37e61fcaf3a3f7b2a6a2a5dd.patch",
-                "8afdcb80b64d813c4b71dbb290baabbc1edafd0885a76a15eabe96fba81466a6_a5d3235d1847ee0a82477ea8701e4892bf5ca138129609ee3905f42ec14465b5.patch",
-                "8b1549749ab0bee577f874f570f1306852c584f5e4f026b9a66fddf4ac024bef_4b764d21a5785a56ea866a70e0fea8a6fb3fa54f46b93f5bfc4b8ce34ac6e44a.patch",
-                "8b1549749ab0bee577f874f570f1306852c584f5e4f026b9a66fddf4ac024bef_d1c59b2cd80913b96078d63161e37353aca5b597e1729242daab5a6c86da9c03.patch",
-                "8b1549749ab0bee577f874f570f1306852c584f5e4f026b9a66fddf4ac024bef_ff07d2cdde8ec545ad9694d44056e3e22e5f4cfb37e61fcaf3a3f7b2a6a2a5dd.patch",
-                "8b1549749ab0bee577f874f570f1306852c584f5e4f026b9a66fddf4ac024bef_a5d3235d1847ee0a82477ea8701e4892bf5ca138129609ee3905f42ec14465b5.patch",
-                "9183ffce21ce388830d0b371595bb92583139eeb4862987a85719a9dbfeec451_4b764d21a5785a56ea866a70e0fea8a6fb3fa54f46b93f5bfc4b8ce34ac6e44a.patch",
-                "9183ffce21ce388830d0b371595bb92583139eeb4862987a85719a9dbfeec451_d1c59b2cd80913b96078d63161e37353aca5b597e1729242daab5a6c86da9c03.patch",
-                "9183ffce21ce388830d0b371595bb92583139eeb4862987a85719a9dbfeec451_ff07d2cdde8ec545ad9694d44056e3e22e5f4cfb37e61fcaf3a3f7b2a6a2a5dd.patch",
-                "9183ffce21ce388830d0b371595bb92583139eeb4862987a85719a9dbfeec451_a5d3235d1847ee0a82477ea8701e4892bf5ca138129609ee3905f42ec14465b5.patch",
-                "9803010f3e5e9609f1e4625ed35a700c2fb98842f923968a08acff6d2dcccf68_4b764d21a5785a56ea866a70e0fea8a6fb3fa54f46b93f5bfc4b8ce34ac6e44a.patch",
-                "9803010f3e5e9609f1e4625ed35a700c2fb98842f923968a08acff6d2dcccf68_d1c59b2cd80913b96078d63161e37353aca5b597e1729242daab5a6c86da9c03.patch",
-                "9803010f3e5e9609f1e4625ed35a700c2fb98842f923968a08acff6d2dcccf68_ff07d2cdde8ec545ad9694d44056e3e22e5f4cfb37e61fcaf3a3f7b2a6a2a5dd.patch",
-                "9803010f3e5e9609f1e4625ed35a700c2fb98842f923968a08acff6d2dcccf68_a5d3235d1847ee0a82477ea8701e4892bf5ca138129609ee3905f42ec14465b5.patch",
-                "a5d3235d1847ee0a82477ea8701e4892bf5ca138129609ee3905f42ec14465b5_4b764d21a5785a56ea866a70e0fea8a6fb3fa54f46b93f5bfc4b8ce34ac6e44a.patch",
-                "a5d3235d1847ee0a82477ea8701e4892bf5ca138129609ee3905f42ec14465b5_d1c59b2cd80913b96078d63161e37353aca5b597e1729242daab5a6c86da9c03.patch",
-                "a5d3235d1847ee0a82477ea8701e4892bf5ca138129609ee3905f42ec14465b5_ff07d2cdde8ec545ad9694d44056e3e22e5f4cfb37e61fcaf3a3f7b2a6a2a5dd.patch",
-                "c26437fdae4cbf4f7c94aa326b93715926d418e2524ba5e70b1633c3a6d307e8_4b764d21a5785a56ea866a70e0fea8a6fb3fa54f46b93f5bfc4b8ce34ac6e44a.patch",
-                "c26437fdae4cbf4f7c94aa326b93715926d418e2524ba5e70b1633c3a6d307e8_d1c59b2cd80913b96078d63161e37353aca5b597e1729242daab5a6c86da9c03.patch",
-                "c26437fdae4cbf4f7c94aa326b93715926d418e2524ba5e70b1633c3a6d307e8_ff07d2cdde8ec545ad9694d44056e3e22e5f4cfb37e61fcaf3a3f7b2a6a2a5dd.patch",
-                "c26437fdae4cbf4f7c94aa326b93715926d418e2524ba5e70b1633c3a6d307e8_a5d3235d1847ee0a82477ea8701e4892bf5ca138129609ee3905f42ec14465b5.patch",
-                "c6c371b993abec256465a50597151ad13bc08f7515f45a06fe42102b0511dc4e_4b764d21a5785a56ea866a70e0fea8a6fb3fa54f46b93f5bfc4b8ce34ac6e44a.patch",
-                "c6c371b993abec256465a50597151ad13bc08f7515f45a06fe42102b0511dc4e_d1c59b2cd80913b96078d63161e37353aca5b597e1729242daab5a6c86da9c03.patch",
-                "c6c371b993abec256465a50597151ad13bc08f7515f45a06fe42102b0511dc4e_ff07d2cdde8ec545ad9694d44056e3e22e5f4cfb37e61fcaf3a3f7b2a6a2a5dd.patch",
-                "c6c371b993abec256465a50597151ad13bc08f7515f45a06fe42102b0511dc4e_a5d3235d1847ee0a82477ea8701e4892bf5ca138129609ee3905f42ec14465b5.patch",
-                "d1c59b2cd80913b96078d63161e37353aca5b597e1729242daab5a6c86da9c03_4b764d21a5785a56ea866a70e0fea8a6fb3fa54f46b93f5bfc4b8ce34ac6e44a.patch",
-                "d1c59b2cd80913b96078d63161e37353aca5b597e1729242daab5a6c86da9c03_ff07d2cdde8ec545ad9694d44056e3e22e5f4cfb37e61fcaf3a3f7b2a6a2a5dd.patch",
-                "d1c59b2cd80913b96078d63161e37353aca5b597e1729242daab5a6c86da9c03_a5d3235d1847ee0a82477ea8701e4892bf5ca138129609ee3905f42ec14465b5.patch",
-                "d393a8c0a7122624a62c52c744837c6c63711d0b3debfc9b0518b745d7302478_4b764d21a5785a56ea866a70e0fea8a6fb3fa54f46b93f5bfc4b8ce34ac6e44a.patch",
-                "d393a8c0a7122624a62c52c744837c6c63711d0b3debfc9b0518b745d7302478_d1c59b2cd80913b96078d63161e37353aca5b597e1729242daab5a6c86da9c03.patch",
-                "d393a8c0a7122624a62c52c744837c6c63711d0b3debfc9b0518b745d7302478_ff07d2cdde8ec545ad9694d44056e3e22e5f4cfb37e61fcaf3a3f7b2a6a2a5dd.patch",
-                "d393a8c0a7122624a62c52c744837c6c63711d0b3debfc9b0518b745d7302478_a5d3235d1847ee0a82477ea8701e4892bf5ca138129609ee3905f42ec14465b5.patch",
-                "e3d70f53e6b351dd1cf23326b261412ef3fde0b5438c4010f10e85a75cc3ea2b_4b764d21a5785a56ea866a70e0fea8a6fb3fa54f46b93f5bfc4b8ce34ac6e44a.patch",
-                "e3d70f53e6b351dd1cf23326b261412ef3fde0b5438c4010f10e85a75cc3ea2b_d1c59b2cd80913b96078d63161e37353aca5b597e1729242daab5a6c86da9c03.patch",
-                "e3d70f53e6b351dd1cf23326b261412ef3fde0b5438c4010f10e85a75cc3ea2b_ff07d2cdde8ec545ad9694d44056e3e22e5f4cfb37e61fcaf3a3f7b2a6a2a5dd.patch",
-                "e3d70f53e6b351dd1cf23326b261412ef3fde0b5438c4010f10e85a75cc3ea2b_a5d3235d1847ee0a82477ea8701e4892bf5ca138129609ee3905f42ec14465b5.patch",
-                "ee0a96b6ef69795346c2cdafb68e1278083e80c989ce1bfd6ffd9792a5572b08_4b764d21a5785a56ea866a70e0fea8a6fb3fa54f46b93f5bfc4b8ce34ac6e44a.patch",
-                "ee0a96b6ef69795346c2cdafb68e1278083e80c989ce1bfd6ffd9792a5572b08_d1c59b2cd80913b96078d63161e37353aca5b597e1729242daab5a6c86da9c03.patch",
-                "ee0a96b6ef69795346c2cdafb68e1278083e80c989ce1bfd6ffd9792a5572b08_ff07d2cdde8ec545ad9694d44056e3e22e5f4cfb37e61fcaf3a3f7b2a6a2a5dd.patch",
-                "ee0a96b6ef69795346c2cdafb68e1278083e80c989ce1bfd6ffd9792a5572b08_a5d3235d1847ee0a82477ea8701e4892bf5ca138129609ee3905f42ec14465b5.patch",
-                "ff07d2cdde8ec545ad9694d44056e3e22e5f4cfb37e61fcaf3a3f7b2a6a2a5dd_4b764d21a5785a56ea866a70e0fea8a6fb3fa54f46b93f5bfc4b8ce34ac6e44a.patch",
-                "ff07d2cdde8ec545ad9694d44056e3e22e5f4cfb37e61fcaf3a3f7b2a6a2a5dd_d1c59b2cd80913b96078d63161e37353aca5b597e1729242daab5a6c86da9c03.patch",
-                "ff07d2cdde8ec545ad9694d44056e3e22e5f4cfb37e61fcaf3a3f7b2a6a2a5dd_a5d3235d1847ee0a82477ea8701e4892bf5ca138129609ee3905f42ec14465b5.patch"
-            ],
-            "sha256": "d1c59b2cd80913b96078d63161e37353aca5b597e1729242daab5a6c86da9c03",
-            "changelog": "<summary>此版本修复了无法搜索 CurseForge 资源的问题，修复了一些 UI 显示问题，并对其他功能进行了修复和优化。</summary>\n\n## 2.14.0-beta.5 更新一览(2026-01-17)\n\n### 🚀 新功能\n\n- 允许设置是否在启动游戏时显示你知道吗 (#2152)\n\n- 从元数据中读取第三方引用内容的许可信息 (#2210)\n\n- 支持使用调试级别 log4j2 配置文件 (#2219)\n\n- *about*: 在关于页面添加了贡献者信息 (#2216)\n\n- *frm*: 使用 WindowChrome 代替 WindowStyleNone (#1929)\n\n- *game-link*: 允许联机界面手动输入端口号 (#2222)\n\n\n### 🐛 问题修复\n\n- *comp*: 无法进行中文搜索\n\n- *CVE*: GHSA-gp33-rfmf-5f38\n\n- *ci*: 修复日志构建工具 (#2106)\n\n- *ui*: 修复 UI 隐藏功能设置项问题\n\n- *comp*: TargetProject 获取行为与重写前的不一致\n\n- *instace-install*: 修复实例修改会失败的问题 (#2133)\n\n- *comp-db*: 修复数据库读取问题\n\n- *ModLaunch*: 再次修复启动 26.1-snapshot 时会显示未找到 Java 0 (#2156)\n\n- 修复修改 Minecraft 版本崩溃 (#2148)\n\n- 修复 Fabric api 及类似选项切换实例不会刷新 (#2149)\n\n- 修复高版本不出现 NeoForge 修改选项的问题 (#2147)\n\n- *SetupUpdate*: 更新日志链接错误 (#2168)\n\n- *MyCard*: 切换主题后 MyCard 的颜色不正确 (#2160)\n\n- 修复在 Vanilla 配置项不存在时使用缓存初始化实例的问题 (#2146)\n\n- *update*: 版本比较结果可能不正确 (#2184)\n\n- *ui*: 修复设置项使用绝对宽度导致某些字体出现重叠 (#2196)\n\n- *comp-resource*: 修复启用的 Mod 显示为灰色 (#2199)\n\n- *ToolsGameLink*: “点击测试”和“登录 Natayark 账户”按钮文字颜色错误 (#2200)\n\n- 数据库遗漏信息 (#2218)\n\n- 临时性修复 CurseForge 搜索问题 (#2221)\n\n- *profile*: 档案迁移可能意外绕过正版验证 (#2217)\n\n\n### 🚜 重构\n\n- *home-page-market*: 重构主页市场 (#2201)\n\n\n### 📚 文档修改\n\n- Update sdk require\n\n- *README*: README 微调\n\n\n### ⚙️ 其他小改动\n\n- 更新帮助库\n\n- 添加 Workflows 权限 (#2114)\n\n- 更新 issue 模板 (#2140)\n\n- File-based version/metadata (#2135)\n\n**完整更新日志**: https://github.com/PCL-Community/PCL2-CE/compare/v2.14.0-beta.4...v2.14.0-beta.5\n\n---\n\n[如果你有 Mirror 酱 CDK 可以在启动器设置中填入，以使用此高速下载源](https://mirrorchyan.com/zh/projects?rid=PCL2-CE&source=pcl2ce-gh-release)\n\n---\n\n[GPG 签名公钥](https://github.com/PCL-Community/PCL2-CE/blob/dev/GPG-PUBLIC-KEY.asc)\n公钥指纹 `81D9430A309B84272D518584EDF4453F0BBB862E`\n"
+            "patches": [],
+            "sha256": "2aedaeab068fd5aeba242776aec7424fde3249e0829d3fa587569a43de5fd7c1",
+            "changelog": "## 2.15.1 更新一览(2026-10-20)\n\n### 🚀 功能追加\n\n- 内存管理可以设置初始大小和最大大小 (#3565) by @qsc1918\n\n- *mod*: 新增模组关系页，补全内嵌检测与依赖解析 (#3441) by @Lokins577\n\n- *ci*: Immutable release & Cosign (#2725) by @tangge233\n\n- *instance*: 修复并完善 MultiMC 整合包支持 (#3640) by @Pigeon0v0\n\n- *bump*: Release 2.15.1 (#3674) by @Pigeon0v0\n\n\n### 🐛 问题修复\n\n- *ui*: 修复 Markdown 弹窗中超链接点击无反应 (#3423) by @Lokins577\n\n- *launch*: Fix mc before 13w25a (#3606) by @fakeboboliu\n\n- *setup-java*: 修复 Java 选择页面刷新无效 (#3609) by @LuLu-ling\n\n- 修复在服务器无玩家时ping服务器会出现报错 (#3620) by @whitecat346\n\n- *proxy*: 代理字段解析遗漏一种格式 (#3495) by @tangge233\n\n- 修复 CET 导致的旧版本 Windows 兼容性问题 (#3623) by @Big-Cake-jpg\n\n- *launch*: Match IsGBKEncoding behavior with Framework (#3605) by @fakeboboliu\n\n- 修复 IsWarn 依赖属性判断 (#3633) by @LuLu-ling\n\n- *instance-setup*: 调整 Reload 中 ServerLogin 的调用时机 (#3634) by @LuLu-ling\n\n- *encryption*: Rebuild unusable user key (#3627) by @whitecat346\n\n- *custom-page*: 修复自定义主页不能正常跳转的问题 (#3528) by @Pigeon0v0\n\n- *link*: 大厅公告栏错误提示会自动消失 (#3648) by @Big-Cake-jpg\n\n- *tooltip*: 修复部分情况下 ToolTip 不显示的问题，并调整了偏移量 (#3508) by @Pigeon0v0\n\n- *install*: 中国大陆地区禁用 Minecraft 安装功能 (#3673) by @Big-Cake-jpg\n\n- *ci*: Release changelog missing GitHub token (#3675) by @Copilot\n\n\n### 🚜 重构\n\n- *downloader*: 重构下载器分片与系统资源分配逻辑 (#3506) by @Pigeon0v0\n\n- 重构 Mod Loader 合并安装提交部分 (#3498) by @Pigeon0v0\n\n\n### 👀 优化改进\n\n- 将服务器卡片 MyHint 的换行占位改为底部边距 (#3632) by @LuLu-ling\n\n- 快速下载的选择菜单优化为多选项 (#3500) by @qsc1918\n\n- 统一修改页与下载实例选加载器页卡片边距 (#3644) by @LuLu-ling\n\n\n### 🌐 国际化\n\n- Merge translations (#3601) by @tangge233\n\n\n### 📚 文档调整\n\n- 完善 Minecraft 披风名称的英文名称和中文翻译（新增极光披风、英雄披风、扭曲披风） (#3639) by @mcenahle\n\n\n### 🤖 工作流配置\n\n- *release*: 用 Release/Beta 选项替代 PR 标题触发发版 (#3651) by @tangge233\n\n\n### ⚙️ 其他改动\n\n- *issue-template*: Update issue template (#3631) by @LuLu-ling\n\n\n\n---\n\n[如果你有 Mirror 酱 CDK 可以直接使用此高速下载源](https://mirrorchyan.com/zh/projects?rid=PCL2-CE&source=pcl2ce-gh-release)\n你也可以直接在下方的 Assets 中下载\n"
         }
     ]
 }
