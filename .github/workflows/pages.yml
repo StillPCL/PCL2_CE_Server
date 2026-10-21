@@ -1,6 +1,11 @@
 name: Deploy static API
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'apiv2/**'
+      - '.github/workflows/pages.yml'
   workflow_dispatch:
 
 permissions:
