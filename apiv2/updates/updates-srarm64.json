@@ -4,16 +4,16 @@
             "file_name": "PCL2_CE_Release_ARM64.exe",
             "version": {
                 "channel": "srarm64",
-                "name": "2.15.1",
-                "code": 525
+                "name": "2.15.2",
+                "code": 526
             },
-            "upd_time": "2026-10-20T11:55:37Z",
+            "upd_time": "2026-10-22T10:53:22Z",
             "downloads": [
-                "https://github.com/StillPCL/PCL-CE/releases/download/v2.15.1/PCL2_CE_Release_ARM64.zip"
+                "https://github.com/StillPCL/PCL-CE/releases/download/v2.15.2/PCL2_CE_Release_ARM64.zip"
             ],
             "patches": [],
-            "sha256": "5ee12f3d2e05598f0c783c5bad132dae2eb1576929849a83677e65827303ae7c",
-            "changelog": "## 2.15.1 更新一览(2026-10-21)\n\n### 🚀 功能追加\n\n- 内存管理可以设置初始大小和最大大小 (#3565)\n\n- *mod*: 新增模组关系页，补全内嵌检测与依赖解析 (#3441)\n\n- *ci*: Immutable release & Cosign (#2725)\n\n- *instance*: 修复并完善 MultiMC 整合包支持 (#3640)\n\n- *bump*: Release 2.15.1 (#3674)\n\n- *brand*: 展示 PCL-CE R 品牌并区分原作者、中游与分支版本\n\n\n### 🐛 问题修复\n\n- *ui*: 修复 Markdown 弹窗中超链接点击无反应 (#3423)\n\n- *launch*: Fix mc before 13w25a (#3606)\n\n- *setup-java*: 修复 Java 选择页面刷新无效 (#3609)\n\n- 修复在服务器无玩家时ping服务器会出现报错 (#3620)\n\n- *proxy*: 代理字段解析遗漏一种格式 (#3495)\n\n- 修复 CET 导致的旧版本 Windows 兼容性问题 (#3623)\n\n- *launch*: Match IsGBKEncoding behavior with Framework (#3605)\n\n- 修复 IsWarn 依赖属性判断 (#3633)\n\n- *instance-setup*: 调整 Reload 中 ServerLogin 的调用时机 (#3634)\n\n- *encryption*: Rebuild unusable user key (#3627)\n\n- *custom-page*: 修复自定义主页不能正常跳转的问题 (#3528)\n\n- *link*: 大厅公告栏错误提示会自动消失 (#3648)\n\n- *tooltip*: 修复部分情况下 ToolTip 不显示的问题，并调整了偏移量 (#3508)\n\n- *install*: 中国大陆地区禁用 Minecraft 安装功能 (#3673)\n\n- *ci*: Release changelog missing GitHub token (#3675)\n\n- *install*: 读取“设备设置区域” (#3676)\n\n- *update*: Naids 更新源永远不会被选择 (#3684)\n\n- *update*: 仅从分支仓库获取更新和公告\n\n- *brand*: 将下载反馈和贡献入口引导至分支仓库\n\n\n### 🚜 重构\n\n- *downloader*: 重构下载器分片与系统资源分配逻辑 (#3506)\n\n- 重构 Mod Loader 合并安装提交部分 (#3498)\n\n\n### 👀 优化改进\n\n- 将服务器卡片 MyHint 的换行占位改为底部边距 (#3632)\n\n- 快速下载的选择菜单优化为多选项 (#3500)\n\n- 统一修改页与下载实例选加载器页卡片边距 (#3644)\n\n\n### 🌐 国际化\n\n- Merge translations (#3601)\n\n\n### 📚 文档调整\n\n- 完善 Minecraft 披风名称的英文名称和中文翻译（新增极光披风、英雄披风、扭曲披风） (#3639)\n\n- 规定下游维护、人工审核及历史整理约束\n\n\n### 🤖 工作流配置\n\n- *release*: 用 Release/Beta 选项替代 PR 标题触发发版 (#3651)\n\n- 从已发布产物同步分支更新服务器元数据\n\n- 按校验后的源码版本构建发布并触发更新服务器同步\n\n\n### ⚙️ 其他改动\n\n- *issue-template*: Update issue template (#3631)\n\n- *release*: Set version 2.15.1\n\n\n\n---\n\n[如果你有 Mirror 酱 CDK 可以直接使用此高速下载源](https://mirrorchyan.com/zh/projects?rid=PCL2-CE&source=pcl2ce-gh-release)\n你也可以直接在下方的 Assets 中下载\n"
+            "sha256": "2f773bf0207e1d41d34c919c953c6e263d0a1dd6d779f808f88cbaaf84562d13",
+            "changelog": "## 2.15.2 更新一览(2026-10-22)\n\n### 🚀 功能追加\n\n- *brand*: 展示 PCL-CE R 并在关于页区分中游与分支版本\n\n- *update*: 移除 Mirror 酱 CDK 输入和购买界面\n\n\n### 🐛 问题修复\n\n- *update*: 仅从分支 GitHub Pages 和仓库获取更新与公告\n\n- *brand*: 将下载反馈和贡献入口引导至分支仓库\n\n\n### 📚 文档调整\n\n- 规定下游维护、人工审核及发布前历史整理约束\n\n- *license*: 增加下游修改版权署名\n\n- 将三语 README 的品牌及使用入口指向 PCL-CE R\n\n\n### 🤖 工作流配置\n\n- 从已发布产物同步分支更新服务器元数据\n\n- 按校验后的源码版本构建发布并触发更新服务器同步\n\n\n### ⚙️ 其他改动\n\n- *release*: 发布 2.15.2 正式版并递增内部版本代码至 526\n\n\n\n---\n\n你也可以直接在下方的 Assets 中下载\n"
         }
     ]
 }
