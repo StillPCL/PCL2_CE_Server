@@ -4,16 +4,16 @@
             "file_name": "PCL2_CE_Beta_ARM64.exe",
             "version": {
                 "channel": "frarm64",
-                "name": "2.15.3-beta.1",
-                "code": 527
+                "name": "2.15.3-beta.2",
+                "code": 528
             },
-            "upd_time": "2026-11-12T12:33:56Z",
+            "upd_time": "2026-11-12T13:00:28Z",
             "downloads": [
-                "https://github.com/StillPCL/PCL-CE/releases/download/v2.15.3-beta.1/PCL2_CE_Beta_ARM64.zip"
+                "https://github.com/StillPCL/PCL-CE/releases/download/v2.15.3-beta.2/PCL2_CE_Beta_ARM64.zip"
             ],
             "patches": [],
-            "sha256": "3664ccf60c15d3fbe4900af41bacec941c2a618551e0619e46c31ddda70aa30f",
-            "changelog": "## 2.15.3-beta.1 更新一览(2026-11-12)\n\n### 🚀 功能追加\n\n- *instance*: Prohibit updating mod (#3710)\n\n- *sentry*: 为非官方构建关闭 Sentry 数据上报 (#3723)\n\n- *msgbox*: 允许选择、复制弹窗中的内容 (#3734)\n\n- *download-comp-detail*: 实例筛选按钮超出宽度时换行 [Grok-4.7] (#3731)\n\n- *ui*: UI MVVM化 [DeepSeek-V4.1-flash-1017] (#3732)\n\n- 优化日志系统的 GC 压力和 CPU 时间 [DeepSeek V4.1 Flash] (#3703)\n\n- 优化 aniGroup 的执行性能 & 去除 FPS 设置项 [DeepSeek V4.1 Flash] (#3702)\n\n- *i18n*: 使用自定义 MarkupExtension 并修复语言切换不完全的问题 [DeepSeek-V4.1-flash-1017] (#3716)\n\n- *crash-report*: 错误报告中部分文件扩展名改为.log (#3741)\n\n- *search*: 搜索时自动忽略竖线和中文别名 (#3762)\n\n- 为存档图标添加圆角 (#3781)\n\n- *brand*: 标识分支身份并保留来源与版权署名\n\n- *region*: 解除账户、安装下载及启动补全的地域限制\n\n- *update*: 使用分支更新服务并移除 CDK 界面\n\n\n### 🐛 问题修复\n\n- 原子化变动 AniControlEnabled 值 (#3697)\n\n- *tooltip*: 修复实例选择中部分按钮鼠标移开仍高亮 (#3698)\n\n- *ui*: 修复重启后窗口不透明度失效 [GPT-6] (#3695)\n\n- *window*: Window hitbox (#3709)\n\n- 游戏内存分配选项未靠左显示 (#3708)\n\n- *install*: 修复加载器安装的临时目录拼接 [GPT-6] (#3694)\n\n- *comp-download*: 修复 Mod 下载文件名扩展名异常 [Qwen-3.8 Max] (#3680)\n\n- *ui*: 修复开启模糊后弹窗遮罩中附加按钮被压扁 [Claude-Opus-5.5] (#3720)\n\n- *i18n*: Internationalize april fools hints (#3727)\n\n- *download*: 修复安装完成后的多余卡顿 (#3729)\n\n- *ui*: 修复高 DPI 下文字发虚 [Claude-Opus-5.5] (#3682)\n\n- *i18n*: Hardcoded strings [DSv4.1f-1017] (#3728)\n\n- *instance*: 修复侧栏刷新遗漏三个加载器列表的问题 [GPT-6] (#3696)\n\n- *mod*: 修复更新相同 Mod 时导致的失败 (#3738)\n\n- 修复错误弹出的配置相关提示弹窗 (#3739)\n\n- *combobox-item*: 修复键盘切换时选中项高亮不跟随 [Grok-4.7] (#3740)\n\n- *extra-button*: 修复在非 UI 线程设置 Show (#3753)\n\n- *slider*: 弹窗出现时不会中断 MySlider 拖动 (#3775)\n\n- *install*: 优化区域检测逻辑 (#3774)\n\n- *typo*: 'Statis' to 'Stats' (#3776)\n\n- *lobby*: 修复退出大厅未重置房主状态 (#3777)\n\n- *tooltip*: 提示框可被鼠标拖出 [DeepSeek-V4.1-flash-1017] (#3773)\n\n- *instance*: 修复实例重命名后旧目录被重新创建 (#3780)\n\n- *launch*: 修复主页预设和 CE 提示缺少间距 (#3790)\n\n- *download*: 修复卡片底部留白 (#3786)\n\n- *release*: `includePCL` -> `includePcl` (#3795)\n\n- *fork*: 将应用及仓库首页的使用入口指向分支\n\n\n### 🚜 重构\n\n- *modxxx-cs*: 拆分上帝文件并整理模块结构 [DeepSeek-V4.1-Flash-1017] (#3735)\n\n- *ui*: UI 完全 MVVM 化并重构 HindService 与 MyMsgBox 到 DialogService (#3751)\n\n- 完成 WPF/Core 拆分与业务层迁移 [DeepSeek-V4.1-flash-1017] (#3755)\n\n- Move MsgBoxWrapper to new DialogService (#3758)\n\n\n### ⚡ 性能改进\n\n- *ui*: 修复 UI 层性能问题 [DeepSeek-V4.1-flash-1017] (#3764)\n\n\n### 🌐 国际化\n\n- Merge translations (#3650)\n\n\n### 📚 文档调整\n\n- *ai-policy*: 添加生成式人工智能使用方针相关内容 (#3704)\n\n- 规定下游维护与人工审核约束\n\n\n### 🤖 工作流配置\n\n- *build*: 校验源码版本并按指定提交构建\n\n- *update*: 从已发布产物生成更新服务器元数据\n\n- *release*: 串联版本准备、签名发布与更新服务器同步\n\n\n### ⚙️ 其他改动\n\n- Update mcmod.buf (#3705)\n\n- *release*: Set version 2.15.3-beta.1\n\n\n\n---\n\n你也可以直接在下方的 Assets 中下载\n"
+            "sha256": "1a334acbf295e69342e1035faf8724002f51ac45cd8502b96447bcaccab4eff1",
+            "changelog": "## 2.15.3-beta.2 更新一览(2026-11-12)\n\n### 🚀 功能追加\n\n- *ui*: 优化功能隐藏选项卡布局 [GPT-6-Astra] (#3800)\n\n- 将项目 C# 版本升级为 C# 15 (#3804)\n\n- *brand*: 标识分支身份并保留来源与版权署名\n\n- *region*: 解除账户、安装下载及启动补全的地域限制\n\n- *update*: 使用分支更新服务并移除 CDK 界面\n\n\n### 🐛 问题修复\n\n- 修复选择弹窗丢失 SvgIcon (#3801)\n\n- *dialog*: 修复连续弹窗衔接时闪白 [Grok-4.7] (#3802)\n\n- *setup*: 捕获贡献者信息加载异常并改为提示 (#3803)\n\n- Use Post for UiDispatcher to avoid dead lock (#3788)\n\n- *launch*: 修复无法启动 13w16a ~ 13w23b (#3805)\n\n- *fork*: 将应用及仓库首页的使用入口指向分支\n\n\n### 🚜 重构\n\n- *java*: 小改 Java 部分的代码实现 [DeepSeek-V4.1-Flash-1017] (#3796)\n\n\n### 📚 文档调整\n\n- 规定下游维护与人工审核约束\n\n\n### 🤖 工作流配置\n\n- *build*: 校验源码版本并按指定提交构建\n\n- *update*: 从已发布产物生成更新服务器元数据\n\n- *release*: 串联版本准备、签名发布与更新服务器同步\n\n\n### ⚙️ 其他改动\n\n- *release*: Set version 2.15.3-beta.2\n\n\n\n---\n\n你也可以直接在下方的 Assets 中下载\n"
         }
     ]
 }
